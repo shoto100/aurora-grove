@@ -1,0 +1,115 @@
+// 
+$primary: #36b3a8;
+
+body{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    
+}
+
+.navbar{
+    font-weight: 100;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    
+    h3{
+        font-weight: 100;
+    }
+    .navbar-brand{
+        font-weight: 100;
+    }
+    .nav-item{
+        font-size: 1.4rem;
+    }
+    .nav-link:hover{
+        transition: border 0.1s;
+        border-bottom: 1px solid #f1f1f1;
+    }
+}
+#showcase {
+    #book{
+        background: $primary;
+        border-radius: 2rem;
+        border: none;
+        font-size: 1.5rem;
+    }
+    
+    background: url(../images/main.jpeg) bottom center/ cover no-repeat;
+    min-height: 750px;
+    
+    h1{
+        font-family: "Questrial", sans-serif;
+        line-height: 1;
+    }
+    
+}
+.card{
+    h2{
+        color: $primary;
+    }
+    a{
+        color: $primary;
+    }
+    a:hover{
+        background: $primary;
+    }
+}
+#quotes{
+    i{
+        color: $primary;
+        opacity: 0.3;
+    }
+}
+#carousel{
+    color: $primary;
+    
+}
+#quotes2{
+    i{
+        color: $primary;
+    }
+}
+#button{
+    background: $primary;
+}
+#footer{
+    background: #1f1f1f;
+    font-weight: 100;
+}
+.modal{
+    .modal-body{
+        font-size: 16px;
+    }
+    .modal-footer{
+        .btn-primary{
+            background: $primary;
+        }
+        .btn-dark{
+            background: #1f1f1f;
+        }
+    }
+}
+#gallery{
+    img{
+        transform: all 3s;
+    }
+    img:hover{
+        transform: scale(1.1);
+    }
+}
+@media(max-width: 768px){
+    .navbar{
+        background: #1f1f1f;
+        .nav-link:hover {
+            border-bottom: none;
+        }
+    }
+    #showcase{
+        min-height: 500px;
+    }
+    h1{
+        font-size: 4rem;
+    }
+}

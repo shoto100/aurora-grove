@@ -1,0 +1,119 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+
+.navbar {
+  font-weight: 100;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+}
+
+.navbar h3 {
+  font-weight: 100;
+}
+
+.navbar .navbar-brand {
+  font-weight: 100;
+}
+
+.navbar .nav-item {
+  font-size: 1.4rem;
+}
+
+.navbar .nav-link:hover {
+  -webkit-transition: border 0.1s;
+  transition: border 0.1s;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+#showcase {
+  background: url(../images/main.jpeg) bottom center/cover no-repeat;
+  min-height: 750px;
+}
+
+#showcase #book {
+  background: #36b3a8;
+  border-radius: 2rem;
+  border: none;
+  font-size: 1.5rem;
+}
+
+#showcase h1 {
+  font-family: "Questrial", sans-serif;
+  line-height: 1;
+}
+
+.card h2 {
+  color: #36b3a8;
+}
+
+.card a {
+  color: #36b3a8;
+}
+
+.card a:hover {
+  background: #36b3a8;
+}
+
+#quotes i {
+  color: #36b3a8;
+  opacity: 0.3;
+}
+
+#carousel {
+  color: #36b3a8;
+}
+
+#quotes2 i {
+  color: #36b3a8;
+}
+
+#button {
+  background: #36b3a8;
+}
+
+#footer {
+  background: #1f1f1f;
+  font-weight: 100;
+}
+
+.modal .modal-body {
+  font-size: 16px;
+}
+
+.modal .modal-footer .btn-primary {
+  background: #36b3a8;
+}
+
+.modal .modal-footer .btn-dark {
+  background: #1f1f1f;
+}
+
+#gallery img {
+  -webkit-transform: all 3s;
+          transform: all 3s;
+}
+
+#gallery img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    background: #1f1f1f;
+  }
+  .navbar .nav-link:hover {
+    border-bottom: none;
+  }
+  #showcase {
+    min-height: 500px;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
